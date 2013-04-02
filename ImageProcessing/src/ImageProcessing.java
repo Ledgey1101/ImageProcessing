@@ -6,7 +6,8 @@ public class ImageProcessing
 
 	public static void main(String[] args) 
 	{
-		learnCar();		
+		learnCar();
+		
 	}
 	
 	public static void learnCar()
