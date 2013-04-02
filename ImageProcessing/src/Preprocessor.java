@@ -129,9 +129,9 @@ public class Preprocessor
 									1/25.f,1/25.f,1/25.f,1/25.f,1/25.f};
 	
 		
-//		BufferedImage enhancedImage = ImageOp.convolver(source, LOWPASS3X3);
+		BufferedImage enhancedImage = ImageOp.convolver(source, LOWPASS3X3);
 		
-		BufferedImage enhancedImage = ImageOp.median(source, 5);
+		//BufferedImage enhancedImage = ImageOp.median(source, 5);
 		
 		return enhancedImage;
 	}
